@@ -1,8 +1,8 @@
-%define fullname %{name}-0.3-0.3-1_dirty
+%define fullname %{name}-0.0-0.0-3_g31e5106_dirty
 
 Name:           cuckoo-hash
-Version:        0.3
-Release:        0.3-1_dirty%{?dist}
+Version:        0.0
+Release:        0.0-3_g31e5106_dirty%{?dist}
 Summary:        Cuckoo hashing C library
 Group:          System Environment/Libraries
 License:        LGPLv3+

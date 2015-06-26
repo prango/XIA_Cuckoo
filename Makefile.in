@@ -160,7 +160,8 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/cuckoo-hash.spec.in \
 	$(top_srcdir)/auto/ar-lib $(top_srcdir)/auto/compile \
 	$(top_srcdir)/auto/install-sh $(top_srcdir)/auto/missing \
 	AUTHORS COPYING COPYING.LESSER ChangeLog INSTALL NEWS README \
-	auto/ar-lib auto/compile auto/install-sh auto/missing
+	auto/ar-lib auto/compile auto/depcomp auto/install-sh \
+	auto/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)

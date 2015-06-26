@@ -160,7 +160,8 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/cuckoo-hash.spec.in \
 	$(top_srcdir)/auto/ar-lib $(top_srcdir)/auto/compile \
 	$(top_srcdir)/auto/install-sh $(top_srcdir)/auto/missing \
 	AUTHORS COPYING COPYING.LESSER ChangeLog INSTALL NEWS README \
-	auto/ar-lib auto/compile auto/install-sh auto/missing
+	auto/ar-lib auto/compile auto/depcomp auto/install-sh \
+	auto/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -203,13 +204,13 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash/auto/missing aclocal-1.15
+ACLOCAL = ${SHELL} /Users/Pranav/Desktop/XIA_Cuckoo/auto/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
-AUTOCONF = ${SHELL} /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash/auto/missing autoconf
-AUTOHEADER = ${SHELL} /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash/auto/missing autoheader
-AUTOMAKE = ${SHELL} /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash/auto/missing automake-1.15
+AUTOCONF = ${SHELL} /Users/Pranav/Desktop/XIA_Cuckoo/auto/missing autoconf
+AUTOHEADER = ${SHELL} /Users/Pranav/Desktop/XIA_Cuckoo/auto/missing autoheader
+AUTOMAKE = ${SHELL} /Users/Pranav/Desktop/XIA_Cuckoo/auto/missing automake-1.15
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -234,27 +235,27 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash/auto/missing makeinfo
+MAKEINFO = ${SHELL} /Users/Pranav/Desktop/XIA_Cuckoo/auto/missing makeinfo
 MKDIR_P = auto/install-sh -c -d
 OBJEXT = o
 PACKAGE = cuckoo-hash
 PACKAGE_BUGREPORT = tomash.brechko@gmail.com
 PACKAGE_NAME = Cuckoo hash
-PACKAGE_STRING = Cuckoo hash 0.3-1_dirty
+PACKAGE_STRING = Cuckoo hash 0.0-3_g31e5106_dirty
 PACKAGE_TARNAME = cuckoo-hash
 PACKAGE_URL = 
-PACKAGE_VERSION = 0.3-1_dirty
+PACKAGE_VERSION = 0.0-3_g31e5106_dirty
 PATH_SEPARATOR = :
-RPM_RELEASE = 0.3-1_dirty
-RPM_VERSION = 0.3
+RPM_RELEASE = 0.0-3_g31e5106_dirty
+RPM_VERSION = 0.0
 SET_MAKE = 
 SHELL = /bin/sh
 STRIP = 
-VERSION = 0.3-1_dirty
-abs_builddir = /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash
-abs_srcdir = /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash
-abs_top_builddir = /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash
-abs_top_srcdir = /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash
+VERSION = 0.0-3_g31e5106_dirty
+abs_builddir = /Users/Pranav/Desktop/XIA_Cuckoo
+abs_srcdir = /Users/Pranav/Desktop/XIA_Cuckoo
+abs_top_builddir = /Users/Pranav/Desktop/XIA_Cuckoo
+abs_top_srcdir = /Users/Pranav/Desktop/XIA_Cuckoo
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -275,7 +276,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/Pranav/Desktop/Linux-XIA/Cuckoo-hash/auto/install-sh
+install_sh = ${SHELL} /Users/Pranav/Desktop/XIA_Cuckoo/auto/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
